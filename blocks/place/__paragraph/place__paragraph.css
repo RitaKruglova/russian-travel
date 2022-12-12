@@ -1,0 +1,14 @@
+.place__paragraph {
+  align-self: flex-start;
+  margin: 0 0 24px;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 162%;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
