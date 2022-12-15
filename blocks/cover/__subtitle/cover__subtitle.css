@@ -9,3 +9,17 @@
   margin: 0;
   padding: 31px 0 245px;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    padding: 31px 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 0 33px;
+  }
+}
