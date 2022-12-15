@@ -2,6 +2,36 @@
   padding-top: 90px;
   padding-left: 148px;
   max-width: 690px;
-  height: 429px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    padding-left: 48px;
+    padding-top: 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 0 0 0;
+    margin: 0 24px;
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 60px 0 0;
+    margin: 0 16px;
+    width: 90vw;
+  }
 }

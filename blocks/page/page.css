@@ -1,6 +1,6 @@
 .page {
   background-color: #2A2C2F;
-  min-width: 1280px;
+  width: 100vw;
   text-align: center;
   color: #FFFFFF;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -10,4 +10,25 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+    min-width: 425px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    max-width: 425px;
+    min-width: 320px;
+  }
 }
