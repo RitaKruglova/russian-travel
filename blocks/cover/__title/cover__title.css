@@ -21,6 +21,7 @@
   .cover__title {
     padding: 115px 0 0;
     font-size: 9.4vw;
+    width: 72.9vw;
   }
 }
 
@@ -29,6 +30,6 @@
     padding: 33px 0 0;
     font-size: 32px;
     line-height: 35px;
-    max-width: 288px;
+    width: 90vw;
   }
 }
