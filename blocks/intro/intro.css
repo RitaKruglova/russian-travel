@@ -6,13 +6,13 @@
   height: -moz-fit-content;
   height: fit-content;
   text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
     font-size: 54px;
     line-height: 58px;
     padding-left: 48px;
@@ -24,7 +24,7 @@
   .intro {
     padding: 88px 0 0 0;
     margin: 0 24px;
-    width: 93.75%;
+    width: 94%;
   }
 }
 

@@ -13,4 +13,4 @@ git clone git@github.com:RitaKruglova/russian-travel.git
 2. Установить расширение LiveServer в VSCode.
 3. Открыть index.html в корневой директории.
 4. Запустить LiveServer.
-5. Или перейти по ссылке в левой панели.
+5. Или перейти по ссылке https://ritakruglova.github.io/russian-travel/
