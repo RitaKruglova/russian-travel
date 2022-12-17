@@ -1,5 +1,5 @@
 .header {
-  width: 92.5vw;
+  width: 93vw;
   max-height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,7 +9,7 @@
   justify-content: space-between;
   padding: 28px 0 56px;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1024px) {
