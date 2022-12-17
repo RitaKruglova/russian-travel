@@ -14,5 +14,8 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
