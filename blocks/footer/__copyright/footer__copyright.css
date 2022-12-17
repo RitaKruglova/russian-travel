@@ -9,6 +9,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -25,6 +28,8 @@
     justify-content: flex-start;
     text-align: left;
     width: 90vw;
+    left: 0;
+    bottom: 26px;
   }
 }
 

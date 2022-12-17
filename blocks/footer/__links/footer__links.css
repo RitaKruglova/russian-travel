@@ -5,7 +5,14 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 62vw;
   width: 465px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    width: 64vw;
+  }
 }
 
 @media screen and (max-width: 425px) {

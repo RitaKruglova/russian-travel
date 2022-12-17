@@ -2,13 +2,8 @@
   width: 92.5vw;
   min-height: 18px;
   margin: 92px auto 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   max-width: 1280px;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,6 +21,12 @@
 
 @media screen and (max-width: 425px) {
   .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
