@@ -10,14 +10,21 @@
   justify-content: flex-end;
   align-items: flex-end;
   position: absolute;
-  bottom: 0;
+  bottom: 22px;
   right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    bottom: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
     font-size: 2vw; /* округлила, но теперь расхождение с макетом. Так во многих местах */
     width: 50vw;
+    bottom: 24px;
   }
 }
 
@@ -29,8 +36,6 @@
     text-align: left;
     width: 90vw;
     left: 0;
-    bottom: 26px;
+    bottom: 22px;
   }
 }
-
-/* Вы мне приложли скрин, в котором моё имя не совпадает с "Впишите Ваше имя" на 1280px. Оно совпадает в самой правой точке тк я использовала space-between. Я не понимаю что должна сделать. Оно же не может совпасть полностью, оно длиннее. Или Вы хотите чтобы совпало с "©"? Но так не получится без уменьшения шрифта. Объясните подробнее что мне сделать пожалуйста */
