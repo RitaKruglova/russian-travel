@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
-    font-size: 2vw; /* округлила, но теперь расхождение с макетом. Так во многих местах */
+    font-size: 2vw;
     width: 50vw;
     bottom: 24px;
   }

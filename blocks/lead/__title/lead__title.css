@@ -14,7 +14,7 @@
     margin: 0 0 32px;
     text-align: center;
     width: 100%;
-    font-size: 13vw; /** если оставить в пикселях, то на разрешениях, близких к 425px появляется скролл **/
+    font-size: 13vw;
   }
 }
 
